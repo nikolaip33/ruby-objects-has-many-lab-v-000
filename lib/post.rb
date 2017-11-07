@@ -12,3 +12,25 @@
 #
 #
 # end
+
+class Post
+    
+    attr_accessor :name, :title, :author
+    
+    def initialize(title)
+        @name = name
+   
+        @song = []
+    
+    end
+       
+    
+    def author_name             
+        self.post.author
+        
+         if self.author == nil
+             nil        
+         end
+    end
+    
+end
