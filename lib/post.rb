@@ -25,10 +25,9 @@ class Post
 
 
     def author_name
-      if self.author != nil
+      if self.author.name != nil
         self.author.name
       end
-
     end
 
 end
