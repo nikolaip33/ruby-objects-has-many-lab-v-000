@@ -28,7 +28,7 @@ class Post
       if self.author != nil
         self.author.name
       end
-        
+
     end
 
 end
