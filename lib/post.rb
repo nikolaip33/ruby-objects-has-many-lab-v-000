@@ -21,7 +21,7 @@ class Post
         @title = title
         @song = []
 
-    end
+
 
 
     def author_name
